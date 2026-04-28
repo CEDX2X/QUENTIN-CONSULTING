@@ -18,7 +18,7 @@ export function TopNavBar() {
           <img
             alt="Quentin Marketing Logo"
             className="h-8 w-auto"
-            src="/logo.png"
+            src="https://firebasestorage.googleapis.com/v0/b/kylyoapp-8ec0b.firebasestorage.app/o/Ced%2Fquentin%2FQuentin%20logo%20.png?alt=media&token=86ccc22d-74a5-45ce-ab92-1cca5f07bec0"
           />
           <span className="text-2xl font-extrabold text-blue-900 tracking-tighter">Quentin Marketing</span>
         </Link>
