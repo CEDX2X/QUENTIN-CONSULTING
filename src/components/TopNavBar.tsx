@@ -16,11 +16,11 @@ export function TopNavBar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-16 py-5">
         <Link to="/" className="flex items-center gap-3">
           <img
-            alt="Expert Conseil Logo"
+            alt="Quentin Marketing Logo"
             className="h-8 w-auto"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxtG8Qd4R678qYI8fSxgtDQZ4oFV_HZUfwTNN_vu_t2w50PnZ_-qc8aBZoqOj4Cjo3l6YmVk5Pnas_BuSE0k6DuGoLWhGi8s6zgP4DBF_QhIcoUXnw677NidrDRuWSsJU8R500GlRdgWVY-tvZlGShr7aOpulE96C9NQbFxUqbdcly38iaIpmZsvEyTXrQnZAictfyF4WHOwBfMm4wKaRW623kNGWuSy48hpBsibiz6SKfFNkUj_tcjpfJSjBjd7lZ_leiwjJ80tI"
+            src="/logo.png"
           />
-          <span className="text-2xl font-extrabold text-blue-900 tracking-tighter">Consultant Portfolio</span>
+          <span className="text-2xl font-extrabold text-blue-900 tracking-tighter">Quentin Marketing</span>
         </Link>
         <div className="hidden md:flex items-center gap-10">
           <Link className={getLinkClasses("/")} to="/">Accueil</Link>
