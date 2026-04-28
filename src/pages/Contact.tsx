@@ -1,7 +1,7 @@
 
 export function Contact() {
   return (
-    <div className="pt-32 pb-section-gap px-16 max-w-7xl mx-auto">
+    <div className="pt-32 pb-section-gap px-6 md:px-16 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
         {/* Left Side: Branding & Info */}
         <div className="lg:col-span-5 space-y-stack-lg">

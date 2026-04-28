@@ -3,7 +3,7 @@ export function Home() {
   return (
     <div className="pt-24">
       {/* Hero Section */}
-      <section className="relative min-h-[870px] flex items-center px-margin-desktop overflow-hidden">
+      <section className="relative min-h-[870px] flex items-center px-margin-mobile md:px-margin-desktop overflow-hidden">
         <div className="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-gutter items-center relative z-10">
           <div className="md:col-span-7 flex flex-col gap-stack-lg">
             <span className="inline-flex items-center gap-2 text-secondary font-label-sm uppercase">
@@ -64,7 +64,7 @@ export function Home() {
       </section>
 
       {/* Services Section (Bento Style) */}
-      <section className="py-section-gap bg-surface-container-low px-margin-desktop">
+      <section className="py-section-gap bg-surface-container-low px-margin-mobile md:px-margin-desktop">
         <div className="max-w-container-max mx-auto">
           <div className="flex flex-col items-center text-center mb-16">
             <h2 className="font-headline-lg text-headline-lg text-primary mb-4">Une expertise 360° pour votre succès</h2>
@@ -143,7 +143,7 @@ export function Home() {
       </section>
 
       {/* About Me Section */}
-      <section className="py-section-gap bg-white px-margin-desktop overflow-hidden">
+      <section className="py-section-gap bg-white px-margin-mobile md:px-margin-desktop overflow-hidden">
         <div className="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
           <div className="relative order-2 md:order-1">
             <div className="aspect-[3/4] rounded-2xl overflow-hidden premium-shadow bg-surface-container">
@@ -189,7 +189,7 @@ export function Home() {
       </section>
 
       {/* Testimonial Section (Premium Dark) */}
-      <section className="py-section-gap bg-primary text-on-primary px-margin-desktop relative">
+      <section className="py-section-gap bg-primary text-on-primary px-margin-mobile md:px-margin-desktop relative">
         <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
           <div className="grid grid-cols-6 h-full">
             <div className="border-r border-white/20"></div>
@@ -249,7 +249,7 @@ export function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-section-gap bg-background px-margin-desktop overflow-hidden">
+      <section className="py-section-gap bg-background px-margin-mobile md:px-margin-desktop overflow-hidden">
         <div className="max-w-container-max mx-auto bg-secondary-container p-12 md:p-20 rounded-2xl relative overflow-hidden flex flex-col items-center text-center">
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-white/20 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>

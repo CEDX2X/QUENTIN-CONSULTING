@@ -3,7 +3,7 @@ export function CaseStudies() {
   return (
     <div className="pt-32 pb-section-gap">
       {/* Hero Section */}
-      <header className="max-w-7xl mx-auto px-16 mb-stack-lg">
+      <header className="max-w-7xl mx-auto px-6 md:px-16 mb-stack-lg">
         <div className="max-w-3xl">
           <span className="text-secondary font-label-sm uppercase tracking-widest mb-stack-sm block">Portfolio d'Excellence</span>
           <h1 className="font-display-lg text-display-lg text-primary mb-stack-md">Études de Cas Stratégiques</h1>
@@ -14,7 +14,7 @@ export function CaseStudies() {
       </header>
 
       {/* Filters Section */}
-      <section className="max-w-7xl mx-auto px-16 mb-stack-lg">
+      <section className="max-w-7xl mx-auto px-6 md:px-16 mb-stack-lg">
         <div className="flex flex-wrap gap-4 items-center">
           <button className="px-6 py-2 rounded-full bg-primary text-white font-label-sm">Tout</button>
           <button className="px-6 py-2 rounded-full bg-surface-container hover:bg-surface-container-high transition-colors text-on-surface-variant font-label-sm">Transformation Digitale</button>
@@ -25,7 +25,7 @@ export function CaseStudies() {
       </section>
 
       {/* Case Studies Grid */}
-      <section className="max-w-7xl mx-auto px-16">
+      <section className="max-w-7xl mx-auto px-6 md:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
           {/* Card 1 */}
           <article className="bg-white rounded-xl overflow-hidden shadow-sm shadow-primary/5 border border-slate-100 flex flex-col hover:translate-y-[-4px] transition-transform duration-300">
@@ -211,7 +211,7 @@ export function CaseStudies() {
       </section>
 
       {/* CTA Section */}
-      <section className="max-w-7xl mx-auto px-16 mt-section-gap">
+      <section className="max-w-7xl mx-auto px-6 md:px-16 mt-section-gap">
         <div className="bg-primary rounded-xl p-16 text-center relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-secondary opacity-10 rounded-full translate-x-1/2 -translate-y-1/2"></div>
           <div className="relative z-10 max-w-2xl mx-auto">

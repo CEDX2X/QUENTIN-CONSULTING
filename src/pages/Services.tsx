@@ -3,9 +3,9 @@ export function Services() {
   return (
     <div className="pt-32">
       {/* Hero Section */}
-      <section className="max-w-7xl mx-auto px-16 mb-20">
+      <section className="max-w-7xl mx-auto px-6 md:px-16 mb-12 md:mb-20">
         <div className="max-w-3xl">
-          <h1 className="font-display-lg text-display-lg text-primary mb-6">
+          <h1 className="font-display-lg text-4xl md:text-display-lg text-primary mb-6">
             Expertise Stratégique pour <span className="text-secondary">Croissance Durable.</span>
           </h1>
           <p className="font-body-lg text-body-lg text-on-surface-variant mb-10">
@@ -15,8 +15,8 @@ export function Services() {
       </section>
 
       {/* Services Section: Management Business */}
-      <section className="max-w-7xl mx-auto px-16 mb-section-gap">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <section className="max-w-7xl mx-auto px-6 md:px-16 mb-section-gap">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div className="order-2 lg:order-1">
             <div className="flex items-center gap-3 mb-4">
               <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>
@@ -24,7 +24,7 @@ export function Services() {
               </span>
               <span className="font-label-sm text-secondary uppercase tracking-widest">Pôle Excellence Opérationnelle</span>
             </div>
-            <h2 className="font-headline-lg text-headline-lg text-primary mb-8">Management Business</h2>
+            <h2 className="font-headline-lg text-3xl md:text-headline-lg text-primary mb-8">Management Business</h2>
             <div className="space-y-6 mb-10">
               <div className="flex gap-4 p-6 bg-white rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
                 <span className="material-symbols-outlined text-primary-container text-3xl">strategy</span>
@@ -56,7 +56,7 @@ export function Services() {
           <div className="order-1 lg:order-2 rounded-2xl overflow-hidden shadow-2xl relative">
             <img
               alt="Management"
-              className="w-full h-[500px] object-cover"
+              className="w-full h-[300px] md:h-[500px] object-cover"
               data-alt="professional corporate boardroom with high-end furniture, soft morning light hitting architectural details, professional and calm atmosphere"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-1j-lCMQhHDiVy-dTMU5xgXZOUDOWoK3JAeWS5Qi1wrBxrLZM8TnwXaxxy457dWIu8K8bb1mlGEJwcSGavULYvqQWq3Uwj6yLNz9GmDDEi2SL1R-XkRAhyAjRb4lFuDRM5_KyEXWNTKLJ29bqXyyriGQv80BbyO2bar3fsQkRxWOEMMVwNS03mvnHFIMewZbr_D9JjUwf1kmxgkeeI1QPG_63HeeL7uJ4xZuks5RfRxC3StF2YEfmSaLLBCwB68wGLFcKXPv7NWc"
             />
@@ -69,12 +69,12 @@ export function Services() {
 
       {/* Services Section: Marketing Digital */}
       <section className="bg-surface-container-low py-section-gap mb-section-gap">
-        <div className="max-w-7xl mx-auto px-16">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-7xl mx-auto px-6 md:px-16">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div className="rounded-2xl overflow-hidden shadow-2xl order-2 lg:order-1 relative">
               <img
                 alt="Digital Marketing"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-[300px] md:h-[500px] object-cover"
                 data-alt="modern tech workspace with high-end displays showing analytics and data visualizations, vibrant blue and orange UI elements, futuristic vibe"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtomP4MAKxAox0IL1jDkjsQiH1V7Y-E42-DP4biYpcBmiXHMi0HvhO3rzSUD0CkYwArSWBis490gEAVdy5tXpdUnB6yfYSE9kx8Wz4DpwwhfLGzBT-Aj2WpKdAnXrXL-yJ3Z0LbLKTcPoYaONiabVFpqrHSpGwgylvhxBfVtLwdkrlea0KBexTp7ucxriivm3Xuo4xALc4ZnSHS5Z8clTNMA1JJgiTpkkqlHFlTWwx0BoX4Eeqi6Is-4hJV56zrvae_OaqAEUC4Zk"
               />
@@ -89,7 +89,7 @@ export function Services() {
                 </span>
                 <span className="font-label-sm text-secondary uppercase tracking-widest">Pôle Acquisition & Visibilité</span>
               </div>
-              <h2 className="font-headline-lg text-headline-lg text-primary mb-8">Marketing Digital</h2>
+              <h2 className="font-headline-lg text-3xl md:text-headline-lg text-primary mb-8">Marketing Digital</h2>
               <div className="grid sm:grid-cols-2 gap-6 mb-10">
                 <div className="p-6 bg-white rounded-xl border border-slate-200">
                   <span className="material-symbols-outlined text-secondary text-3xl mb-4">search_insights</span>
@@ -112,7 +112,7 @@ export function Services() {
                   <p className="text-sm text-on-surface-variant">Fidélisation automatisée pour transformer vos prospects en ambassadeurs.</p>
                 </div>
               </div>
-              <button className="bg-primary text-on-primary px-8 py-4 rounded-lg font-bold shadow-lg shadow-primary/20 hover:bg-primary-container transition-colors">
+              <button className="w-full sm:w-auto text-center bg-primary text-on-primary px-8 py-4 rounded-lg font-bold shadow-lg shadow-primary/20 hover:bg-primary-container transition-colors">
                 Booster ma présence en ligne
               </button>
             </div>
@@ -121,9 +121,9 @@ export function Services() {
       </section>
 
       {/* Methodology Section */}
-      <section className="max-w-7xl mx-auto px-16 mb-section-gap">
+      <section className="max-w-7xl mx-auto px-6 md:px-16 mb-section-gap">
         <div className="text-center mb-16">
-          <h2 className="font-display-lg text-headline-lg text-primary mb-4">Notre Méthodologie</h2>
+          <h2 className="font-display-lg text-3xl md:text-headline-lg text-primary mb-4">Notre Méthodologie</h2>
           <p className="text-on-surface-variant max-w-2xl mx-auto">
             Un processus rigoureux en 4 étapes pour garantir l'alignement stratégique et le succès opérationnel de chaque projet.
           </p>
@@ -157,21 +157,21 @@ export function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="max-w-7xl mx-auto px-16 mb-section-gap">
-        <div className="bg-primary-container rounded-3xl p-12 lg:p-20 relative overflow-hidden">
+      <section className="max-w-7xl mx-auto px-6 md:px-16 mb-section-gap">
+        <div className="bg-primary-container rounded-3xl p-8 md:p-12 lg:p-20 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-1/3 h-full opacity-10">
             <span className="material-symbols-outlined text-[300px] text-white">trending_up</span>
           </div>
           <div className="relative z-10 max-w-2xl">
-            <h2 className="font-display-lg text-headline-lg text-white mb-6">Prêt à franchir une nouvelle étape ?</h2>
+            <h2 className="font-display-lg text-3xl md:text-headline-lg text-white mb-6">Prêt à franchir une nouvelle étape ?</h2>
             <p className="text-on-primary-container text-body-lg mb-10">
               Réservez un créneau de 30 minutes pour discuter de vos enjeux actuels. Sans engagement, juste de la valeur.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform">
+              <button className="w-full sm:w-auto text-center bg-secondary-container text-on-secondary-container px-8 py-4 rounded-xl font-bold hover:scale-105 transition-transform">
                 Prendre Rendez-vous
               </button>
-              <button className="border border-on-primary-container text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-colors">
+              <button className="w-full sm:w-auto text-center border border-on-primary-container text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-colors">
                 Voir nos études de cas
               </button>
             </div>
